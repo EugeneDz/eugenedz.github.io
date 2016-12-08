@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Евгений Джевадов</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Swiper -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <aside class="left-content col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="my-photo">
+            <img src="assets/img/photo.jpg" alt="Евгений Джевадов">
+        </div>
+        <br>
+
+        <div class="hello">
+            Привет, будем знакомы!
+        </div>
+        <div class="name">
+            Меня зовут Евгений
+        </div>
+        <div class="about">
+            <p>Я WEB Developer и так сложилось, что мой путь, как веб разработчика, оказался очень разнообразным, поэтому я успел
+                ознакомится с многими аспектами разработки сайтов и приложений, от создания дизайна до рекламы и
+                продвижения.</p>
+            <p>Мейнстрим разработка SPA с помощью Angular, Node.JS и TypeScript</p>
+        </div>
+        <div class="services">
+            <div class="label label-default">Front-end</div>
+            <div class="label label-default">Back-end</div>
+            <div class="label label-default">UI/UX</div>
+        </div>
+        <div class="social">
+            <ul>
+                <li><i class="fa fa-2x fa-facebook-square"></i></li>
+                <li><i class="fa fa-2x fa-twitter-square"></i></li>
+                <li><i class="fa fa-2x fa-github-square"></i></li>
+                <li><i class="fa fa-2x fa-envelope-square"></i></li>
+                <li><i class="fa fa-2x fa-skype"></i></li>
+            </ul>
+        </div>
+        <div class="mail-me">
+            <a href="#" class="btn btn-default">Написать мне</a>
+        </div>
+    </aside>
+
+    <!-- Swiper -->
+    <div class="right-content col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Swiper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: 9500,
+        slidesPerView: 3,
+        spaceBetween: 0,
+        breakpoints: {
+            1440: {
+                slidesPerView: 2,
+                spaceBetween: 0
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
