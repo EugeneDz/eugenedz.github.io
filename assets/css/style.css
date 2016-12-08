@@ -93,7 +93,7 @@ body {
     -webkit-align-items: center;
     align-items: center; }
     .right-content .swiper-slide:nth-child(1) {
-      background-image: url("../img/teleport_design.jpg");
+      background-image: url("../img/legiteam_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
@@ -107,7 +107,21 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover; }
     .right-content .swiper-slide:nth-child(3) {
-      background-image: url("../img/teleport_design.jpg");
+      background-image: url("../img/fasad_center_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; }
+    .right-content .swiper-slide:nth-child(4) {
+      background-image: url("../img/bls_group_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; }
+    .right-content .swiper-slide:nth-child(5) {
+      background-image: url("../img/lvk_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
