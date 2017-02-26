@@ -77,17 +77,14 @@ body {
         display: inline;
         padding-left: 4px;
         padding-right: 4px;
+
+        a {
+          color: #fff;
+        }
       }
     }
   }
 
-  .mail-me {
-    position: absolute;
-    bottom: 5%;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 
 .right-content {
@@ -162,8 +159,12 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover;
     }
+
+    .description {}
+
     &:hover {
       opacity: .5;
     }
+
   }
 }

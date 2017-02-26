@@ -46,7 +46,7 @@
             <p>Я WEB Developer и так сложилось, что мой путь, как веб разработчика, оказался очень разнообразным, поэтому я успел
                 ознакомится с многими аспектами разработки сайтов и приложений, от создания дизайна до рекламы и
                 продвижения.</p>
-            <p>Мейнстрим разработка SPA с помощью Angular, Node.JS и TypeScript</p>
+            <p>Сейчас изучаю Angular, Node.JS</p>
         </div>
         <div class="services">
             <div class="label label-default">Front-end</div>
@@ -55,15 +55,12 @@
         </div>
         <div class="social">
             <ul>
-                <li><i class="fa fa-2x fa-facebook-square"></i></li>
-                <li><i class="fa fa-2x fa-twitter-square"></i></li>
-                <li><i class="fa fa-2x fa-github-square"></i></li>
-                <li><i class="fa fa-2x fa-envelope-square"></i></li>
-                <li><i class="fa fa-2x fa-skype"></i></li>
+                <li><a href=""><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fa fa-2x fa-twitter-square"></i></a></li>
+                <li><a href=""><i class="fa fa-2x fa-github-square"></i></a></li>
+                <li><a href=""><i class="fa fa-2x fa-envelope-square"></i></a></li>
+                <li><a href=""><i class="fa fa-2x fa-skype"></i></a></li>
             </ul>
-        </div>
-        <div class="mail-me">
-            <a href="#" class="btn btn-default">Написать мне</a>
         </div>
     </aside>
 
@@ -72,7 +69,15 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"></div>
+                <div class="swiper-slide">
+                    <div class="description hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Recusandae minus sapiente sit ab quisquam, facere, 
+                            eligendi ullam dolor modi, nisi fugit consequuntur. 
+                            Consequuntur iure delectus, nobis temporibus, deleniti 
+                            quaerat rerum.</p>
+                    </div>
+                </div>
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
@@ -117,6 +122,12 @@
                 spaceBetween: 0
             }
         }
+    });
+
+    $(".swiper-slide").hover(function(){
+        $('.description').removeClass('hidden');
+    },function(){
+        $('.description').addClass('hidden');
     });
 </script>
 

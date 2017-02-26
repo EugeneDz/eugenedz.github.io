@@ -58,12 +58,8 @@ body {
       display: inline;
       padding-left: 4px;
       padding-right: 4px; }
-  .left-content .mail-me {
-    position: absolute;
-    bottom: 5%;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto; }
+      .left-content .social ul li a {
+        color: #fff; }
 
 .right-content {
   position: relative;
@@ -130,4 +126,4 @@ body {
     .right-content .swiper-slide:hover {
       opacity: .5; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=maps/style.css.map */
