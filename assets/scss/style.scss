@@ -18,7 +18,7 @@ body {
 }
 
 .left-content {
-  color: #fff;
+  color: $primary-color;
   min-height: 100%;
   background: -moz-linear-gradient(153deg, #000000 0, #333333 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, 153deg, color-stop(0, 000000), color-stop(100%, 333333)); /* Chrome,Safari4+ */
@@ -79,7 +79,7 @@ body {
         padding-right: 4px;
 
         a {
-          color: #fff;
+          color: $primary-color;
         }
       }
     }
@@ -103,7 +103,7 @@ body {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: $primary-color;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -120,7 +120,7 @@ body {
     align-items: center;
 
     &:nth-child(1) {
-      background-image: url("../img/legiteam_design.jpg");
+      background-image: url("../img/teleport_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
         -webkit-background-size: cover;
@@ -128,7 +128,7 @@ body {
         -o-background-size: cover;
     }
     &:nth-child(2) {
-      background-image: url("../img/teleport_design.jpg");
+      background-image: url("../img/legiteam_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
@@ -152,6 +152,22 @@ body {
       -o-background-size: cover;
     }
     &:nth-child(5) {
+      background-image: url("../img/gorchitsacafe_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+    &:nth-child(6) {
+      background-image: url("../img/inteb_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+    &:nth-child(7) {
       background-image: url("../img/lvk_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -159,12 +175,58 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover;
     }
-
-    .description {}
-
-    &:hover {
-      opacity: .5;
+    &:nth-child(8) {
+      background-image: url("../img/alphacosta_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
     }
 
+    .description {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      color: $primary-color;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      font-family: $font-stack;
+      font-size: 16px;
+      font-weight: 300;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      &:hover {
+        -webkit-transition: all .2s 0s ease-in-out;
+        -moz-transition: all .2s 0s ease-in-out;
+        -o-transition: all .2s 0s ease-in-out;
+        transition: all .2s 0s ease-in-out;
+        opacity: .85;
+      }
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+      }
+  
+    }
   }
 }

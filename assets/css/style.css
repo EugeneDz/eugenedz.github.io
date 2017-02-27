@@ -89,14 +89,14 @@ body {
     -webkit-align-items: center;
     align-items: center; }
     .right-content .swiper-slide:nth-child(1) {
-      background-image: url("../img/legiteam_design.jpg");
+      background-image: url("../img/teleport_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover; }
     .right-content .swiper-slide:nth-child(2) {
-      background-image: url("../img/teleport_design.jpg");
+      background-image: url("../img/legiteam_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
@@ -117,13 +117,67 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover; }
     .right-content .swiper-slide:nth-child(5) {
+      background-image: url("../img/gorchitsacafe_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; }
+    .right-content .swiper-slide:nth-child(6) {
+      background-image: url("../img/inteb_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; }
+    .right-content .swiper-slide:nth-child(7) {
       background-image: url("../img/lvk_design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover; }
-    .right-content .swiper-slide:hover {
-      opacity: .5; }
+    .right-content .swiper-slide:nth-child(8) {
+      background-image: url("../img/alphacosta_design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; }
+    .right-content .swiper-slide .description {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .right-content .swiper-slide .description:hover {
+        -webkit-transition: all .2s 0s ease-in-out;
+        -moz-transition: all .2s 0s ease-in-out;
+        -o-transition: all .2s 0s ease-in-out;
+        transition: all .2s 0s ease-in-out;
+        opacity: .85; }
+      .right-content .swiper-slide .description a {
+        color: #fff;
+        text-decoration: none; }
+        .right-content .swiper-slide .description a:hover {
+          text-decoration: underline; }
 
 /*# sourceMappingURL=maps/style.css.map */
