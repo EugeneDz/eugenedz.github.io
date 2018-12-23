@@ -1,0 +1,2 @@
+body{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;-ms-flex-flow:column;flex-flow:column;width:100wh;height:100vh;color:#fff;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;animation:a 15s ease infinite}.subtitle,body .title{text-align:center}@keyframes a{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
+/*# sourceMappingURL=main.css.map */
